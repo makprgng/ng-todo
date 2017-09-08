@@ -1,0 +1,22 @@
+/*Todo item*/
+
+
+.todo-item {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+}
+
+
+.todo-item:not(:first-child){
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.todo-item .checkbox {
+    margin-right: .25em;
+}
+
+
+.todo-item.completed .title {
+    text-decoration: line-through;
+}

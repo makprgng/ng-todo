@@ -1,0 +1,8 @@
+/*Todo list*/
+
+.todo-list{
+    display: flex;
+    flex-direction: column;
+}
+
+
